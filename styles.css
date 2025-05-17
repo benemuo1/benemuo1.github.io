@@ -1,0 +1,88 @@
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 35pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+nav{
+    
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   background-color : #CAEBF2  ;
+   padding-left: 70px;
+   border-radius: 25px;
+
+}
+.navbar .nav-link{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .nav-link:hover{
+    color : #FF3B3F
+}
+.aboutme{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#FAFAFA;
+    margin: 55px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.skills2{
+    padding-left: 100px;
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#FAFAFA;
+    margin: 55px;
+    
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.link{
+    max-width: 200px;
+    max-height: 200px;
+}
+.github{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.body{
+    background :#D3D3D3 ;
+}
+.project{
+   background-color: #FAFAFA;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   border-radius: 75px;
+   margin-top: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  
+  list-style-position: inside; 
+}
+.embed{
+    border-radius: 25px ; 
+
+    
+    
+}
+.valo{
+   padding: 10px;
+   
+}
+.contact{
+    background-color: #FAFAFA;
+    border-radius: 75px;
+}
