@@ -156,7 +156,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .welcome{
     font-size: 45pt;
-    margin-bottom: 360px;
+    padding-bottom: 400px;
+    transform: translateY(100px);
+  
     
 }
 .intro{
@@ -174,4 +176,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-position: center center;
     color: white
+}
+.arrow{
+    
 }
