@@ -10,18 +10,55 @@ nav{
     padding: 0;
 }
 .navbar{
-   background-color : #CAEBF2  ;
-   padding-left: 70px;
-   border-radius: 25px;
+    position: absolute;
+}
+.navbar .nav-item{
 
+
+}
+
+.navbar .navbar-nav{
+background-color: rgba(0, 0, 0, .5);
+border-radius: 20px;
+padding-left: 10px;
+padding-right: 10px;
 }
 .navbar .nav-link{
+    color: cyan;
+font-family: Georgia, 'Times New Roman', Times, serif;}
 
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 .navbar .nav-link:hover{
-    color : #FF3B3F
+    color : lightpink
 }
+
+.navbar-nav .nav-link.active{
+    color : white
+}
+.navbar-nav .nav-link.dropdown-toggle:focus{
+    color: white
+}
+.contactButton{
+    text-decoration: none;
+    color: white;
+    
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+} /* for the hidden contacts menu options*/
+
+.navbar-collapse.show .navbar-nav {
+   
+   
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 .aboutme{
     padding-left: 100px;
     padding-right: 100px;
@@ -33,6 +70,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+
 .skills2{
     padding-left: 100px;
     
@@ -56,9 +94,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 25px;
 }
 
-.body{
-    background :#D3D3D3 ;
-}
 .project{
    background-color: #FAFAFA;
    padding-top: 25px;
@@ -82,7 +117,61 @@ ul {
    padding: 10px;
    
 }
-.contact{
-    background-color: #FAFAFA;
-    border-radius: 75px;
+
+.homebody{
+    
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.15);
+    background-image: url("../images/keyboard background.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.me{
+    border-radius: 200px;
+}
+
+
+.navcontainer{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navcontainer{
+    position:relative
+}
+
+.arrow{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.arrow:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+.welcome{
+    font-size: 45pt;
+    margin-bottom: 360px;
+    
+}
+.intro{
+    font-size: 25pt;
+}
+
+.aboutbody{
+    padding-top: 20px;
+   
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    background-image: url("../images/keyboard background.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white
 }
